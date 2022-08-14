@@ -1,0 +1,22 @@
+.filterContainer{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.filterTitle{
+grid-column: 2;
+font-size: 14px;
+font-weight: 700;
+color: #000;
+}
+
+.filterInput{
+
+    width: 200px;
+    justify-self: center;
+    border: 1px solid #000;
+    border-radius: 2px;
+    margin-left: 10px;
+}

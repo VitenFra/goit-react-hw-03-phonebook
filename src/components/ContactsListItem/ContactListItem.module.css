@@ -1,0 +1,30 @@
+.contactItem{
+    display: grid;
+    grid-template-columns: 1fr 250px 100px 1fr;
+}
+
+.contactName{
+    
+    font-size: 16px;
+    grid-column: 2;
+}
+
+.deleteBtn {
+    width: 100%;
+    height: 30px;
+    align-self: center;
+    justify-self: start;
+    font-weight: 500;
+    border: none;
+    border-radius: 2px;
+    color: #000;
+    cursor: pointer;
+
+
+}
+
+.deleteBtn:hover {
+    background: none;
+    color: white;
+   
+}

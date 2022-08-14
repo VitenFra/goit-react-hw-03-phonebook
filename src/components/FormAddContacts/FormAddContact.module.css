@@ -1,0 +1,48 @@
+.formAddContact{
+    display: grid;
+    grid-template-columns:1fr 300px 1fr;
+   grid-template-rows: 30px 30px 50px;
+   align-items: center;
+
+}
+
+.formInputTitle{
+    grid-column-start: 2;
+    font-weight: 400;
+    font-size: 14px;
+
+    color: #000;
+}
+
+.formInput{
+    border: 1px solid #000;
+    border-radius: 2px;
+    margin-left: 14px;
+}
+
+.addBtn{
+    grid-area: 3/2;
+    width: 100px;
+    height: 30px;
+    align-self: center;
+    justify-self: center;
+    font-weight: 500;
+    
+        
+
+    
+    background-color: transparent;
+    border: none;
+    border-radius: 2px;
+    color:#000;
+    cursor: pointer;
+
+}
+
+.addBtn:hover {
+    background: none;
+    background-color: skyblue;
+    color: beige;
+    
+}
+
